@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,html {
+    background: linear-gradient(90deg, rgba(26,24,32,1) 44%, rgba(19,17,23,1) 75%, rgba(213,194,184,1) 94%);
+    padding: 1rem; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.OrkColor {
+    color: rgb(33, 113, 33);
 }
+
+.SMColor {
+    color: rgb(150, 29, 74);
+}
+
+.ChaosColor {
+    color: rgb(115, 10, 14);
+}
+.EldarColor {
+    color: rgb(75, 99, 221);
+}
+.IGColor {
+    color: rgb(39, 145, 7);
+}
+.NecronColor {
+    color: rgb(22, 93, 141);
+}
+.TauColor {
+    color: rgb(165, 27, 32);
+}
+.TyranidColor {
+    color: rgb(98, 17, 219);
+}
+
+.search-bar {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .search-bar form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image-list {
+    columns: 6 200px;
+    column-gap: 10px;
+  }
+  
+  img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  
+
